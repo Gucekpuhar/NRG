@@ -1,0 +1,66 @@
+Used literature in bibtex format, for pdf later
+
+recommended
+
+@inproceedings{finlayson2002removing,
+  title={Removing shadows from images},
+  author={Finlayson, Graham D and Hordley, Steven D and Drew, Mark S},
+  booktitle={European conference on computer vision},
+  pages={823--836},
+  year={2002},
+  organization={Springer}
+}
+
+
+@article{khan2015automatic,
+  title={Automatic shadow detection and removal from a single image},
+  author={Khan, Salman H and Bennamoun, Mohammed and Sohel, Ferdous and Togneri, Roberto},
+  journal={IEEE transactions on pattern analysis and machine intelligence},
+  volume={38},
+  number={3},
+  pages={431--446},
+  year={2015},
+  publisher={IEEE}
+}
+
+----------------others--------------------------
+
+@inproceedings{scanlan1990shadow,
+  title={A shadow detection and removal algorithm for 2-d images},
+  author={Scanlan, Joseph M and Chabries, Douglas M and Christiansen, Richard W},
+  booktitle={International Conference on Acoustics, Speech, and Signal Processing},
+  pages={2057--2060},
+  year={1990},
+  organization={IEEE}
+}
+
+@article{lin2010efficient,
+  title={An efficient and robust moving shadow removal algorithm and its applications in ITS},
+  author={Lin, Chin-Teng and Yang, Chien-Ting and Shou, Yu-Wen and Shen, Tzu-Kuei},
+  journal={EURASIP Journal on Advances in Signal Processing},
+  volume={2010},
+  pages={1--19},
+  year={2010},
+  publisher={Springer}
+}
+
+@inproceedings{xu2005shadow,
+  title={Shadow removal with blob-based morphological reconstruction for error correction},
+  author={Xu, Li-Qun and Landabaso, Jos{\'e} Luis and Pard{\`a}s, Montse},
+  booktitle={Proceedings.(ICASSP'05). IEEE International Conference on Acoustics, Speech, and Signal Processing, 2005.},
+  volume={2},
+  pages={ii--729},
+  year={2005},
+  organization={IEEE}
+}
+
+@inproceedings{xiao2013efficient,
+  title={Efficient shadow removal using subregion matching illumination transfer},
+  author={Xiao, Chunxia and Xiao, Donglin and Zhang, Ling and Chen, Lin},
+  booktitle={Computer Graphics Forum},
+  volume={32},
+  number={7},
+  pages={421--430},
+  year={2013},
+  organization={Wiley Online Library}
+}
