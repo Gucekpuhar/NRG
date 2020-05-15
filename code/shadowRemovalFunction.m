@@ -1,8 +1,10 @@
+function final = shadowRemovalFunction(x)
+
 clear all
 close all
 clc
 
-name = 'test2.jpg';
+name = x;
 im = imread(name);
 
 
@@ -15,6 +17,8 @@ bl = medfilt2( double( im(:,:,3)), [3,3] );
 gr = medfilt2 (double( im(:,:,2)), [3,3] );
 
 % re = medfilt2( double( im(:,:,1)), [3,3] ); we dont use it latter 
+
+
 
 
 % Shadow Ratio:
@@ -88,6 +92,7 @@ tmp2 = bsxfun(@times, im, cast(~BW, 'like', im));
 %maskedRgbImage=im;
 
 %combine the images
+
 maskedRgbImage = bsxfun(@times, res2, cast(BW, 'like', res2));
 %pixelsToReplace = maskedRgbImage == 255;
 
@@ -99,9 +104,9 @@ final = els + maskedRgbImage;
 figure, imshow(final);
 
 
+end
 
 
 
-%
 
 
